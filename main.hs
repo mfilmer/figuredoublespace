@@ -29,9 +29,6 @@ imageSpacer baseImage spaceHeight x y
     ifFromRaw = y `div` spaceHeight `mod` 2 == 0
     realY = (y `div` (2 * spaceHeight)) * spaceHeight + y `mod` spaceHeight
 
---insertSpaces :: Int -> Int -> PixelRGBA8
---insertSpaces x y = PixelRGBA8 g g b a
-
 main = do 
   imageCreator "test.png"
   args <- getArgs
