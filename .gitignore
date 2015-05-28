@@ -1,5 +1,4 @@
-# Cabal stuff
-.cabal-sandbox/*
-
-# Other automatically generated stuff
-dist/*
+# binaries
+*.exe
+*.hi
+*.o
