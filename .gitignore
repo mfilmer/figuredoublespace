@@ -17,3 +17,6 @@ cabal.sandbox.config
 
 # Binaries
 *.exe
+
+# Test Images
+*.png
